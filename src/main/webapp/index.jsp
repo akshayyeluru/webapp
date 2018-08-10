@@ -51,7 +51,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1>Hello Apps</h1>
+        <h1>Hello Apps Assoc</h1>
         <p>Apps Associates is a global IT services company that enables organizations to implement, adopt and manage Oracle Applications, Cloud Infrastructure, Salesforce, Analytics and Integration solutions. We partner with our customers to enable their journey to the cloud and deliver continuous business improvement with our managed services. We differentiate through our relentless attention to delivery excellence and customer care. Apps Associates is an Oracle Platinum Partner, a Premier Consulting Partner with Amazon Web Services and a Salesforce Silver Consulting Partner.</p>
         <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
     </div>
