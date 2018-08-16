@@ -112,12 +112,7 @@
 		"IPAssoc": {
 			"Type": "AWS::EC2::EIPAssociation",
 			"Properties": {
-				"AllocationId": {
-					"Fn::GetAtt": [
-						"IPAddress",
-						"AllocationId"
-					]
-				},
+				"AllocationId": "eipalloc-3dda3436",
 				"InstanceId": {
 					"Ref": "Instance"
 				}
