@@ -83,7 +83,7 @@
 				"InstanceType": {
 					"Ref": "InstanceType"
 				},
-				"ImageId": "ami-cfe4b2b0",
+				"ImageId": "ami-759bc50a",
 				"SubnetId": {
 					"Ref": "SubnetId"
 				},
