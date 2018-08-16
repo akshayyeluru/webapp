@@ -83,7 +83,7 @@
 				"InstanceType": {
 					"Ref": "InstanceType"
 				},
-				"ImageId": "ami-b70554c8",
+				"ImageId": "ami-cfe4b2b0",
 				"SubnetId": {
 					"Ref": "SubnetId"
 				},
@@ -120,9 +120,9 @@
 				"Ref": "Instance"
 			}
 		},
-		"InstanceIPAddress": {
+		"PublicIp": {
 			"Value": {
-				"Ref": "IPAddress"
+				"Fn::GetAtt": ["Instance","PublicIp"]
 			}
 		}
 	}
