@@ -124,6 +124,11 @@
 			"Value": {
 				"Fn::GetAtt": ["Instance","PublicIp"]
 			}
+		},
+		"PublicDNS": {
+			"Value": {
+				"Fn::GetAtt": ["Instance","PublicDnsName"]
+			}
 		}
 	}
 }
