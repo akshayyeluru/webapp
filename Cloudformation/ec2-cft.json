@@ -5,7 +5,7 @@
 		"KeyName": {
 			"Type": "String",
 			"Description": "EC2 Key Pair for SSH Access",
-			"Default": "webAppFidelity",
+			"Default": "web-app-fidelity",
 			"MinLength": "1",
 			"MaxLength": "64",
 			"AllowedPattern": "[-_ a-zA-Z0-9]*",
@@ -83,7 +83,7 @@
 				"InstanceType": {
 					"Ref": "InstanceType"
 				},
-				"ImageId": "ami-759bc50a",
+				"ImageId": "ami-0ff8a91507f77f867",
 				"SubnetId": {
 					"Ref": "SubnetId"
 				},
